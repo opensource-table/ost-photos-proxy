@@ -14,7 +14,7 @@
   "scripts": {
     "server-dev": "nodemon ./server/index.js",
     "start": "node ./server/index.js",
-    "k6": "kr run /Users/SunWei-Tse/Google/HackReactor/opentable/ost_photos_server/script.js"
+    "k6": "k6 run /Users/SunWei-Tse/Google/HackReactor/opentable/ost_photos_server/script.js"
   },
   "dependencies": {
     "express": "^4.16.4",
