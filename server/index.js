@@ -1,7 +1,8 @@
+require('newrelic');
 const express = require('express');
 const path = require('path');
 const app = express();
-const proxy = require('http-proxy-middleware');
+// const proxy = require('http-proxy-middleware');
 
 app.use(express.static(path.resolve(__dirname, '../public')));
 
