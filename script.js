@@ -6,8 +6,8 @@ import http from "k6/http";
 const PORT = 3000;
 
 export let options = {
-  vus: 200,
-  rps: 200,
+  vus: 2000,
+  rps: 2000,
   duration: "5m"
 }
 
